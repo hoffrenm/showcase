@@ -1,0 +1,112 @@
+[
+  {
+    "title": "Experis Academy // Noroff training period",
+    "projects": [
+      {
+        "name": "Translation app",
+        "description": "Turn text into American Sign Language.",
+        "overview": "Type in text and receive corresponding ASL interpretation. React assignment during frontend training period by Noroff.",
+        "logos": ["React", "MUI"],
+        "technologies": ["React", "MUI"],
+        "github": "https://github.com/hoffrenm/ea-translation-app",
+        "demo": "",
+        "screenshots": [
+          "https://raw.githubusercontent.com/hoffrenm/ea-translation-app/refs/heads/main/img/landing.png",
+          "https://raw.githubusercontent.com/hoffrenm/ea-translation-app/refs/heads/main/img/translate.png"
+        ]
+      },
+      {
+        "name": "Pokemon Trainer",
+        "description": "Browse and collect Pokemons!",
+        "overview": "Sort of pokedex for browsing and keeping a track of Pokemons that you've encountered. Angular assignment during frontend training period by Noroff.",
+        "features": ["User control", ""],
+        "logos": ["Angular", "TypeScript", "TailwindCSS"],
+        "technologies": ["Angular", "TypeScript", "TailwindCSS"],
+        "github": "https://github.com/hoffrenm/ea-pokemon-trainer",
+        "demo": "",
+        "screenshots": [
+          "https://raw.githubusercontent.com/hoffrenm/ea-pokemon-trainer/refs/heads/main/screenshot/ss_1.png",
+          "https://raw.githubusercontent.com/hoffrenm/ea-pokemon-trainer/refs/heads/main/screenshot/ss_2.png",
+          "https://raw.githubusercontent.com/hoffrenm/ea-pokemon-trainer/refs/heads/main/screenshot/ss_3.png"
+        ]
+      },
+      {
+        "name": "Boxinator",
+        "description": "Need a box? Order a box!",
+        "overview": "Fullstack assignment during Noroff training period. You can order mysterious boxes and you will receive email confirmations for each step. Project was made by a group of 4 developers.",
+        "logos": ["React", "MUI", "Java", "Docker", "Keycloak"],
+        "technologies": ["React", "Java", "MUI", "Docker", "Keycloak"],
+        "github": "https://github.com/EaCase/boxinator-client",
+        "demo": "",
+        "featured": true
+      },
+      {
+        "name": "Movie Characters API",
+        "description": "API for storing movies, characters and franchises. Full CRUD functionality",
+        "overview": "Type in text and receive corresponding ASL interpretation. Fullstack assignment during Noroff training period.",
+        "logos": ["Java", "Java Spring", "PostgreSQL", "Docker"],
+        "technologies": ["Java", "Java Spring", "PostgreSQL", "Docker"],
+        "github": "https://github.com/hoffrenm/ea-spring-api",
+        "demo": ""
+      }
+    ]
+  },
+  {
+    "title": "Software Engineering Lab // Eficode",
+    "projects": [
+      {
+        "name": "Amandus",
+        "description": "Robot Framework web editor and integrated git environment on the go",
+        "overview": "This is the software engineering project by University of Helsinki for Eficode. You can synchronize your repositories from GitHub, GitLab and BitBucket in order to edit your Robot Framework test files on this editor. Editor is capable of all common git operations including solving merge conflicts. Project group consisted of 6 developers, everybody investing over 200 hours of work to this project while maintaining agile development processes.",
+        "logos": [
+          "React",
+          "TypeScript",
+          "NodeJS",
+          "GraphQL",
+          "MUI",
+          "Docker",
+          "Cypress"
+        ],
+        "technologies": ["React", "TypeScript", "MUI", "Docker", "Cypress"],
+        "github": "https://github.com/Ohtu-project-Eficode/Amandus",
+        "demo": "",
+        "featured": true
+      }
+    ]
+  },
+  {
+    "title": "University of Helsinki courseworks",
+    "projects": [
+      {
+        "name": "Rate a repository",
+        "description": "Browse and rate repositories on your Android phone",
+        "logos": ["React Native", "Android", "GraphQL", "Expo"],
+        "github": "https://github.com/hoffrenm/fullstack-part10"
+      }
+    ]
+  },
+
+  {
+    "title": "Other",
+    "projects": [
+      {
+        "name": "Showcase",
+        "description": "My portfolio site",
+        "overview": "A site I built to showcase my projects.",
+        "logos": ["React", "TailwindCSS"],
+        "technologies": ["React", "TailwindCSS"],
+        "github": "",
+        "demo": ""
+      },
+      {
+        "name": "Advent of Code -24",
+        "description": "My solutions for puzzles with JS",
+        "overview": "Advent of Code 2024 solutions by me. Still missing a few stars. Damn those infinite towels...",
+        "logos": ["JavaScript"],
+        "technologies": ["JavaScript"],
+        "github": "https://github.com/hoffrenm/Advent-of-Code-24",
+        "demo": ""
+      }
+    ]
+  }
+]
