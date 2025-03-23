@@ -8,10 +8,7 @@ const ProjectHeader = ({ title, description, link, setProject }) => (
         <img src={"src/assets/arrowback.svg"} />
       </div>
     </div>
-    <div
-      className="relative bg-cover bg-center text-white p-8 flex items-center justify-self-center"
-      style={{ backgroundImage: "url('/path-to-background-image.jpg')" }}
-    >
+    <div className="relative bg-cover bg-center text-white p-8 flex items-center justify-self-center">
       <div className="p-2 rounded-lg text-center">
         <h1 className="text-7xl font-bold text-slate-700">{title}</h1>
         <p className="mt-4 text-lg text-black">{description}</p>
@@ -20,7 +17,7 @@ const ProjectHeader = ({ title, description, link, setProject }) => (
     <a href={link} target="_blank">
       <div className="flex flex-row gap-2 p-2 items-center border-2 hover:bg-gray-100 border-gray-200 rounded-lg border-lg">
         <div>
-          <img src={"src/assets/github.svg"} className="size-12" />
+          <img src={"/github.svg"} className="size-12" />
         </div>
         <div>
           <p>Check project on GitHub</p>

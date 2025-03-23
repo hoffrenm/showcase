@@ -1,4 +1,3 @@
-import CardsContainer from "../components/CardContainer";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import Content from "./Content";

@@ -17,7 +17,7 @@ const ProjectCard = ({ project, title, setProject, description }) => {
             {project.logos.map((logo) => (
               <>
                 <div className="flex flex-col items-center justify-center px-2">
-                  <img src={`src/assets/${logo}.svg`} className="size-10" />
+                  <img src={`/${logo}.svg`} className="size-10" />
                   <p className="font-light">{logo}</p>
                 </div>
               </>
