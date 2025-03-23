@@ -1,6 +1,4 @@
 const ProjectFeatures = ({ features, contributions }) => {
-  console.log(features);
-
   return (
     <section className="flex flex-row">
       {features && (

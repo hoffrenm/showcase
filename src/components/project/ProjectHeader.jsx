@@ -5,7 +5,7 @@ const ProjectHeader = ({ title, description, link, setProject }) => (
         onClick={() => setProject(null)}
         className="cursor-pointer align-middle "
       >
-        <img src={"src/assets/arrowback.svg"} />
+        <img src={"/arrowback.svg"} />
       </div>
     </div>
     <div className="relative bg-cover bg-center text-white p-8 flex items-center justify-self-center">
