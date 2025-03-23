@@ -1,7 +1,4 @@
 import React from "react";
-import reactLogo from "../assets/react.svg";
-import nodeLogo from "../assets/nodejs.svg";
-import graphqlLogo from "../assets/graphql.svg";
 
 const ProjectCard = ({ project, title, setProject, description }) => {
   console.log(project);

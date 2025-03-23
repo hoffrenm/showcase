@@ -3,7 +3,7 @@ import Project from "./ProjectCard";
 const SubsectionL = ({ title, projects, setProject }) => {
   return (
     <>
-      <div className="flex">
+      <div className="transform transition-all duration-500 flex justify-end py-8">
         <div className="flex items-center w-full bg-slate-800 drop-shadow-lg text-white">
           <p className="truncate px-8 py-2 text-2xl">{title}</p>
         </div>

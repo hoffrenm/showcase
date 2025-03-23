@@ -9,7 +9,7 @@ const Projects = () => {
   const [selectedProject, setSelectedProject] = useState(null);
 
   return (
-    <div className="transform transition-all duration-500 w-1/2 min-w-110 text-black ">
+    <div className="transform transition-all duration-500 w-1/2 min-w-140 text-black ">
       {selectedProject ? (
         <ProjectPage
           project={selectedProject}

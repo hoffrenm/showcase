@@ -10,13 +10,17 @@ const ProjectPage = ({ project, setProject }) => (
       setProject={setProject}
       title={project.name}
       description={project.description}
+      link={project.github}
     />
     <ProjectOverview overview={project.overview} />
 
     <ProjectScreenshots screenshots={project.screenshots} />
 
-    <ProjectFeatures />
-    <ProjectTechnologies />
+    <ProjectFeatures
+      features={project.features}
+      contributions={project.contributions}
+    />
+    <ProjectTechnologies technologies={project.technologies} />
   </div>
 );
 

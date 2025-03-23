@@ -1,23 +1,17 @@
 const ProjectTechnologies = ({ technologies }) => (
-  <section className="py-16 bg-slate-200">
+  <section className="py-8 h-max bg-slate-200">
     <div className="container mx-auto text-center">
       <h2 className="text-3xl font-bold mb-8">Technologies Used</h2>
-      <div className="flex justify-center space-x-8">
-        <div className="flex items-center space-x-2">
-          <img
-            className="w-10"
-            src="/path-to-react-logo.png"
-            alt="React Logo"
-          />
-          <span>React</span>
-        </div>
-        <div className="flex items-center space-x-2">
-          <img
-            className="w-10"
-            src="/path-to-tailwind-logo.png"
-            alt="Tailwind CSS Logo"
-          />
-          <span>Tailwind CSS</span>
+      <div className="flex justify-center space-x-8 gap-8">
+        <div className="flex flex-row border-t-2 border-stone-200 p-2 justify-evenly">
+          {technologies.map((logo) => (
+            <>
+              <div className="flex flex-col items-center justify-center px-2">
+                <img src={`src/assets/${logo}.svg`} className="size-10" />
+                <p className="font-light">{logo}</p>
+              </div>
+            </>
+          ))}
         </div>
         {/* Add more technologies as needed */}
       </div>

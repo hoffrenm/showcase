@@ -13,13 +13,23 @@
         "screenshots": [
           "https://raw.githubusercontent.com/hoffrenm/ea-translation-app/refs/heads/main/img/landing.png",
           "https://raw.githubusercontent.com/hoffrenm/ea-translation-app/refs/heads/main/img/translate.png"
+        ],
+        "features": [
+          "Enter alphabetical string",
+          "Receive matching presentation in hand signals",
+          "Hosted on Vercel"
+        ],
+        "contributions": [
+          "Interface design",
+          "Project architecture",
+          "Deployment configurations"
         ]
       },
       {
         "name": "Pokemon Trainer",
         "description": "Browse and collect Pokemons!",
         "overview": "Sort of pokedex for browsing and keeping a track of Pokemons that you've encountered. Angular assignment during frontend training period by Noroff.",
-        "features": ["User control", ""],
+
         "logos": ["Angular", "TypeScript", "TailwindCSS"],
         "technologies": ["Angular", "TypeScript", "TailwindCSS"],
         "github": "https://github.com/hoffrenm/ea-pokemon-trainer",
@@ -28,26 +38,54 @@
           "https://raw.githubusercontent.com/hoffrenm/ea-pokemon-trainer/refs/heads/main/screenshot/ss_1.png",
           "https://raw.githubusercontent.com/hoffrenm/ea-pokemon-trainer/refs/heads/main/screenshot/ss_2.png",
           "https://raw.githubusercontent.com/hoffrenm/ea-pokemon-trainer/refs/heads/main/screenshot/ss_3.png"
+        ],
+        "features": [
+          "Separate users",
+          "Paginated view for pokemon listing",
+          "Add Pokemons to favorites"
+        ],
+        "contributions": [
+          "Design collabration",
+          "Login page",
+          "Pagination",
+          "Listing for Pokemons"
         ]
       },
       {
         "name": "Boxinator",
         "description": "Need a box? Order a box!",
-        "overview": "Fullstack assignment during Noroff training period. You can order mysterious boxes and you will receive email confirmations for each step. Project was made by a group of 4 developers.",
+        "overview": "Fullstack assignment during Noroff training period. You can order mysterious boxes and you will receive email confirmations for each step. Admins are able to update details and statuses of shipments. Project was made by a group of 4 developers.",
         "logos": ["React", "MUI", "Java", "Docker", "Keycloak"],
         "technologies": ["React", "Java", "MUI", "Docker", "Keycloak"],
         "github": "https://github.com/EaCase/boxinator-client",
         "demo": "",
-        "featured": true
+        "featured": true,
+        "features": [
+          "User management with Keycloak",
+          "Authorization based views",
+          "Email confirmations"
+        ],
+        "contributions": [
+          "Design collaboration",
+          "Responsibility of frontend architecture and design choices",
+          "Majority of frontend implementation",
+          "Frontend CI/CD pipeline"
+        ]
       },
       {
         "name": "Movie Characters API",
         "description": "API for storing movies, characters and franchises. Full CRUD functionality",
-        "overview": "Type in text and receive corresponding ASL interpretation. Fullstack assignment during Noroff training period.",
+        "overview": "In this project I designed and implemented database based on requirements. Fully functional API was built also. Backend assignment during Noroff training period.",
         "logos": ["Java", "Java Spring", "PostgreSQL", "Docker"],
         "technologies": ["Java", "Java Spring", "PostgreSQL", "Docker"],
         "github": "https://github.com/hoffrenm/ea-spring-api",
-        "demo": ""
+        "demo": "",
+        "features": ["Full CRUD api"],
+        "contributions": [
+          "Database structure design",
+          "Implementation with Java Spring",
+          "Docker deployment"
+        ]
       }
     ]
   },
@@ -57,7 +95,7 @@
       {
         "name": "Amandus",
         "description": "Robot Framework web editor and integrated git environment on the go",
-        "overview": "This is the software engineering project by University of Helsinki for Eficode. You can synchronize your repositories from GitHub, GitLab and BitBucket in order to edit your Robot Framework test files on this editor. Editor is capable of all common git operations including solving merge conflicts. Project group consisted of 6 developers, everybody investing over 200 hours of work to this project while maintaining agile development processes.",
+        "overview": "This is the software engineering project by University of Helsinki for Eficode. We continued developing existing project by adding functionalities desired by the client. You can synchronize your repositories from GitHub, GitLab and BitBucket in order to edit your Robot Framework test files on this editor. Editor is capable of all common git operations including solving merge conflicts. Project group consisted of 6 developers, each investing over 200 hours of work to this project while maintaining agile development processes.",
         "logos": [
           "React",
           "TypeScript",
@@ -70,7 +108,27 @@
         "technologies": ["React", "TypeScript", "MUI", "Docker", "Cypress"],
         "github": "https://github.com/Ohtu-project-Eficode/Amandus",
         "demo": "",
-        "featured": true
+        "screenshots": [
+          "https://raw.githubusercontent.com/hoffrenm/showcase/refs/heads/main/img/amandus1.png",
+          "https://raw.githubusercontent.com/hoffrenm/showcase/refs/heads/main/img/amandus2.png",
+          "https://raw.githubusercontent.com/hoffrenm/showcase/refs/heads/main/img/amandus3.png",
+          "https://raw.githubusercontent.com/hoffrenm/showcase/refs/heads/main/img/amandus4.png",
+          "https://raw.githubusercontent.com/hoffrenm/showcase/refs/heads/main/img/amandus5.png"
+        ],
+        "featured": true,
+        "features": [
+          "Git service integration: Sync repositories with GitHub, GitLab & BitBucket",
+          "Edit, push, pull, clone, merge & create branches directly from editor",
+          "Robot Framework language server"
+        ],
+        "contributions": [
+          "OAuth flows with Git services",
+          "Design and implementation of new components into existing interface",
+          "Implementation of end-to-end tests with Cypress",
+          "Mocking Git-services for testing",
+          "CI/CD pipeline with GH Actions & Docker",
+          "Expanding database models and migrations"
+        ]
       }
     ]
   },
@@ -80,8 +138,28 @@
       {
         "name": "Rate a repository",
         "description": "Browse and rate repositories on your Android phone",
+        "overview": "Retrieve repositories from GitHub. You can leave a review and rating for an repository, as well as, see reviews left by other users. Sign up for the app is required. This is the course exercise for FullStack Open part 10.",
         "logos": ["React Native", "Android", "GraphQL", "Expo"],
-        "github": "https://github.com/hoffrenm/fullstack-part10"
+        "technologies": ["React Native", "Android", "GraphQL", "Expo"],
+        "github": "https://github.com/hoffrenm/fullstack-part10",
+        "screenshots": [
+          "https://raw.githubusercontent.com/hoffrenm/showcase/refs/heads/main/img/rate1.png",
+          "https://raw.githubusercontent.com/hoffrenm/showcase/refs/heads/main/img/rate2.png",
+          "https://raw.githubusercontent.com/hoffrenm/showcase/refs/heads/main/img/rate3.png",
+          "https://raw.githubusercontent.com/hoffrenm/showcase/refs/heads/main/img/rate4.png",
+          "https://raw.githubusercontent.com/hoffrenm/showcase/refs/heads/main/img/rate5.png"
+        ],
+        "features": [
+          "React Native & Android application",
+          "Retrieve repositories from GitHub",
+          "Rate, leave review & read other's reviews",
+          "GitHub OAuth application",
+          ""
+        ],
+        "contributions": [
+          "Finish all exercises",
+          "End up with functional React Native Android app"
+        ]
       }
     ]
   },
