@@ -61,6 +61,16 @@
         "github": "https://github.com/EaCase/boxinator-client",
         "demo": "",
         "featured": true,
+        "screenshots": [
+          "https://raw.githubusercontent.com/hoffrenm/showcase/refs/heads/main/img/box1.png",
+          "https://raw.githubusercontent.com/hoffrenm/showcase/refs/heads/main/img/box2.png",
+          "https://raw.githubusercontent.com/hoffrenm/showcase/refs/heads/main/img/box3.png",
+          "https://raw.githubusercontent.com/hoffrenm/showcase/refs/heads/main/img/box4.png",
+          "https://raw.githubusercontent.com/hoffrenm/showcase/refs/heads/main/img/box5.png",
+          "https://raw.githubusercontent.com/hoffrenm/showcase/refs/heads/main/img/box6.png",
+          "https://raw.githubusercontent.com/hoffrenm/showcase/refs/heads/main/img/box7.png",
+          "https://raw.githubusercontent.com/hoffrenm/showcase/refs/heads/main/img/box8.png"
+        ],
         "features": [
           "User management with Keycloak",
           "Authorization based views",
