@@ -10,20 +10,24 @@ import { useEffect, useState } from "react";
 const ProjectPage = () => {
   const [project, setProject] = useState({});
   const navigate = useNavigate();
-  const { orgId, id } = useParams();
+  const { id } = useParams();
+
+  console.log(id);
 
   useEffect(() => {
     const projectExists =
       projects
         .map((item) => item.projects)
         .flat()
-        .find((item) => item.name.toLowerCase().replace(/ /g, "") == id) ||
-      false;
+        .find(
+          (item) =>
+            item.name.toLowerCase().replace(/ /g, "") == id.toLowerCase()
+        ) || false;
 
-    if (!projectExists) navigate("/showcase/", { replace: true });
+    if (!projectExists) navigate("/", { replace: true });
 
     setProject(projectExists);
-  }, [orgId, id]);
+  }, [id]);
 
   return (
     <div>

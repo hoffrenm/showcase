@@ -11,9 +11,9 @@ const Layout = () => {
       <Navbar />
       <Content>
         <Routes>
-          <Route path="/showcase/" element={<Projects />} />
-          <Route path="/showcase/:orgId/:id" element={<ProjectPage />} />
-          <Route path="*" element={<Navigate to="/showcase/" replace />} />
+          <Route path="/" element={<Projects />} />
+          <Route path="/:id" element={<ProjectPage />} />
+          <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>
       </Content>
       <Footer />

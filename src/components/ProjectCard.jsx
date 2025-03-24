@@ -10,7 +10,7 @@ const ProjectCard = ({ project, orgId }) => {
       )}
       <div
         onClick={() =>
-          navigate(`${orgId}/${project.name}`.replace(/ /g, "").toLowerCase())
+          navigate(`${project.name}`.replace(/ /g, "").toLowerCase())
         }
         className="relative hover:scale-104 duration-150 ease-in-out bg-neutral-50 min-w-90 border border-slate-200 rounded-md shadow-md"
       >
