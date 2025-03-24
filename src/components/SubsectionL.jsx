@@ -1,6 +1,6 @@
 import Project from "./ProjectCard";
 
-const SubsectionL = ({ title, projects, setProject }) => {
+const SubsectionL = ({ title, orgId, projects }) => {
   return (
     <>
       <div className="transform transition-all duration-500 flex justify-end py-8">
@@ -12,13 +12,7 @@ const SubsectionL = ({ title, projects, setProject }) => {
       <div className="flex flex-row justify-evenly flex-wrap p-6 gap-8 transform transition-all duration-500">
         <>
           {projects.map((project, index) => (
-            <Project
-              key={index}
-              project={project}
-              title={project.name}
-              description={project.description}
-              setProject={setProject}
-            />
+            <Project key={index} project={project} orgId={orgId} />
           ))}
         </>
       </div>

@@ -3,25 +3,34 @@ import ProjectHeader from "./project/ProjectHeader";
 import ProjectOverview from "./project/ProjectOverview";
 import ProjectScreenshots from "./project/ProjectScreenshots";
 import ProjectTechnologies from "./project/ProjectTechnologies";
+import { useParams } from "react-router-dom";
+import projects from "../../projects.json";
 
-const ProjectPage = ({ project, setProject }) => (
-  <div>
-    <ProjectHeader
-      setProject={setProject}
-      title={project.name}
-      description={project.description}
-      link={project.github}
-    />
-    <ProjectOverview overview={project.overview} />
+const ProjectPage = () => {
+  const { orgId, id } = useParams();
+  console.log(projects);
 
-    <ProjectScreenshots screenshots={project.screenshots} />
+  // Json is a database and you cant convince me otherwise
+  const project = projects
+    .find((item) => item.orgId.toLowerCase().replace(/ /g, "") == orgId)
+    .projects.find((item) => item.name.toLowerCase().replace(/ /g, "") == id);
 
-    <ProjectFeatures
-      features={project.features}
-      contributions={project.contributions}
-    />
-    <ProjectTechnologies technologies={project.technologies} />
-  </div>
-);
+  return (
+    <div>
+      <ProjectHeader
+        title={project.name}
+        description={project.description}
+        link={project.github}
+      />
+      <ProjectOverview overview={project.overview} />
+      <ProjectScreenshots screenshots={project.screenshots} />
+      <ProjectFeatures
+        features={project.features}
+        contributions={project.contributions}
+      />
+      <ProjectTechnologies technologies={project.technologies} />
+    </div>
+  );
+};
 
 export default ProjectPage;

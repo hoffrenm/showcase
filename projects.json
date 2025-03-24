@@ -1,5 +1,6 @@
 [
   {
+    "orgId": "experis",
     "title": "Experis Academy // Noroff training period",
     "projects": [
       {
@@ -90,6 +91,7 @@
     ]
   },
   {
+    "orgId": "softwarelab",
     "title": "Software Engineering Lab // Eficode",
     "projects": [
       {
@@ -133,6 +135,7 @@
     ]
   },
   {
+    "orgId": "hy",
     "title": "University of Helsinki courseworks",
     "projects": [
       {
@@ -165,6 +168,7 @@
   },
 
   {
+    "orgId": "other",
     "title": "Other",
     "projects": [
       {
