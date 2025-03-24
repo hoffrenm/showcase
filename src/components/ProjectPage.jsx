@@ -8,7 +8,6 @@ import projects from "../../projects.json";
 
 const ProjectPage = () => {
   const { orgId, id } = useParams();
-  console.log(projects);
 
   // Json is a database and you cant convince me otherwise
   const project = projects

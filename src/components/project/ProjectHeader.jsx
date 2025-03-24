@@ -5,7 +5,7 @@ const ProjectHeader = ({ title, description, link }) => {
 
   return (
     <div className="flex flex-row items-center align-middle justify-between">
-      <div className="m-4 size-20 hover:scale-105">
+      <div className="m-4 size-16 hover:scale-105">
         <div
           onClick={() => navigate(-1)}
           className="cursor-pointer align-middle "

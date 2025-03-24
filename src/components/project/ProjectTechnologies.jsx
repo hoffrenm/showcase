@@ -16,7 +16,6 @@ const ProjectTechnologies = ({ technologies }) => (
             </>
           ))}
         </div>
-        {/* Add more technologies as needed */}
       </div>
     </div>
   </section>
