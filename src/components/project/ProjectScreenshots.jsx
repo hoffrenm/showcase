@@ -6,8 +6,8 @@ const ProjectScreenshots = ({ screenshots }) => {
 
         <div className="grid flex-wrap sm:grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8 justify-around">
           {screenshots ? (
-            screenshots.map((img) => (
-              <a href={img} target="_blank">
+            screenshots.map((img, index) => (
+              <a href={img} target="_blank" key={index}>
                 <img
                   className="transition-all duration-300 rounded-lg shadow-lg border hover:scale-200 object-contain max-h-100"
                   src={img}

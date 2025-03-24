@@ -197,7 +197,9 @@
         "logos": ["JavaScript"],
         "technologies": ["JavaScript"],
         "github": "https://github.com/hoffrenm/Advent-of-Code-24",
-        "demo": ""
+        "screenshots": [
+          "https://raw.githubusercontent.com/hoffrenm/showcase/refs/heads/main/img/aoc1.png"
+        ]
       }
     ]
   }

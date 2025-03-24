@@ -6,7 +6,7 @@ const ProjectCard = ({ project, orgId }) => {
   return (
     <div key={project.name} className="relative group cursor-pointer">
       {project.featured && (
-        <div class="absolute -inset-1 bg-gradient-to-r from-amber-400 to-red-600 rounded-lg blur opacity-25 group-hover:opacity-100 transition duration-1000 group-hover:duration-200" />
+        <div className="absolute -inset-1 bg-gradient-to-r from-amber-400 to-red-600 rounded-lg blur opacity-25 group-hover:opacity-100 transition duration-1000 group-hover:duration-200" />
       )}
       <div
         onClick={() =>
@@ -19,16 +19,17 @@ const ProjectCard = ({ project, orgId }) => {
         </h4>
         <p className="px-4 pb-4">{project.description}</p>
         <div className="flex flex-row border-t-2 border-stone-200 p-2 justify-evenly">
-          {project.logos.map((logo) => (
-            <>
-              <div className="flex flex-col items-center justify-center px-2">
-                <img
-                  src={`/showcase/${logo}.svg`.toLowerCase()}
-                  className="size-10"
-                />
-                <p className="font-light">{logo}</p>
-              </div>
-            </>
+          {project.logos.map((logo, index) => (
+            <div
+              key={index}
+              className="flex flex-col items-center justify-center px-2"
+            >
+              <img
+                src={`/showcase/${logo}.svg`.toLowerCase()}
+                className="size-10"
+              />
+              <p className="font-light">{logo}</p>
+            </div>
           ))}
         </div>
       </div>

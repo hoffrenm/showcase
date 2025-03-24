@@ -4,17 +4,19 @@ const ProjectTechnologies = ({ technologies }) => (
       <h2 className="text-3xl font-bold mb-8">Technologies used</h2>
       <div className="flex justify-center space-x-8 gap-8">
         <div className="flex flex-row border-t-2 border-stone-200 p-2 justify-evenly">
-          {technologies.map((logo) => (
-            <>
-              <div className="flex flex-col items-center justify-center px-2">
+          {technologies &&
+            technologies.map((logo, index) => (
+              <div
+                key={index}
+                className="flex flex-col items-center justify-center px-2"
+              >
                 <img
                   src={`/showcase/${logo}.svg`.toLowerCase()}
                   className="size-10"
                 />
                 <p className="font-light">{logo}</p>
               </div>
-            </>
-          ))}
+            ))}
         </div>
       </div>
     </div>

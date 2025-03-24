@@ -3,16 +3,27 @@ import ProjectHeader from "./project/ProjectHeader";
 import ProjectOverview from "./project/ProjectOverview";
 import ProjectScreenshots from "./project/ProjectScreenshots";
 import ProjectTechnologies from "./project/ProjectTechnologies";
-import { useParams } from "react-router-dom";
+import { useNavigate, useParams } from "react-router-dom";
 import projects from "../../projects.json";
+import { useEffect, useState } from "react";
 
 const ProjectPage = () => {
+  const [project, setProject] = useState({});
+  const navigate = useNavigate();
   const { orgId, id } = useParams();
 
-  // Json is a database and you cant convince me otherwise
-  const project = projects
-    .find((item) => item.orgId.toLowerCase().replace(/ /g, "") == orgId)
-    .projects.find((item) => item.name.toLowerCase().replace(/ /g, "") == id);
+  useEffect(() => {
+    const projectExists =
+      projects
+        .map((item) => item.projects)
+        .flat()
+        .find((item) => item.name.toLowerCase().replace(/ /g, "") == id) ||
+      false;
+
+    if (!projectExists) navigate("/showcase/", { replace: true });
+
+    setProject(projectExists);
+  }, [orgId, id]);
 
   return (
     <div>
