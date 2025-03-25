@@ -1,29 +1,37 @@
 [
   {
     "orgId": "experis",
-    "title": "Experis Academy // Noroff training period",
+    "title": "Experis Academy // Noroff training",
     "projects": [
       {
-        "name": "Translation app",
-        "description": "Turn text into American Sign Language.",
-        "overview": "Type in text and receive corresponding ASL interpretation. React assignment during frontend training period by Noroff.",
-        "logos": ["React", "MUI"],
-        "technologies": ["React", "MUI"],
-        "github": "https://github.com/hoffrenm/ea-translation-app",
+        "name": "Boxinator",
+        "description": "Need a box? Order a box!",
+        "overview": "Fullstack assignment during Noroff training period. You can order mysterious boxes and you will receive email confirmations for each step. Admins are able to update details and statuses of shipments. Project was made by a group of 4 developers.",
+        "logos": ["React", "MUI", "Java", "Docker", "Keycloak"],
+        "technologies": ["React", "Java", "MUI", "Docker", "Keycloak"],
+        "github": "https://github.com/EaCase/boxinator-client",
         "demo": "",
+        "featured": true,
         "screenshots": [
-          "https://raw.githubusercontent.com/hoffrenm/ea-translation-app/refs/heads/main/img/landing.png",
-          "https://raw.githubusercontent.com/hoffrenm/ea-translation-app/refs/heads/main/img/translate.png"
+          "https://raw.githubusercontent.com/hoffrenm/showcase/refs/heads/main/img/box1.png",
+          "https://raw.githubusercontent.com/hoffrenm/showcase/refs/heads/main/img/box2.png",
+          "https://raw.githubusercontent.com/hoffrenm/showcase/refs/heads/main/img/box3.png",
+          "https://raw.githubusercontent.com/hoffrenm/showcase/refs/heads/main/img/box4.png",
+          "https://raw.githubusercontent.com/hoffrenm/showcase/refs/heads/main/img/box5.png",
+          "https://raw.githubusercontent.com/hoffrenm/showcase/refs/heads/main/img/box6.png",
+          "https://raw.githubusercontent.com/hoffrenm/showcase/refs/heads/main/img/box7.png",
+          "https://raw.githubusercontent.com/hoffrenm/showcase/refs/heads/main/img/box8.png"
         ],
         "features": [
-          "Enter alphabetical string",
-          "Receive matching presentation in hand signals",
-          "Hosted on Vercel"
+          "User management with Keycloak",
+          "Authorization-based views to allow access based on user roles",
+          "Email confirmations for shipment claim, creation and delivery"
         ],
         "contributions": [
-          "Interface design",
-          "Project architecture",
-          "Deployment configurations"
+          "Collaborated on design decisions to align with project goals and client requirements",
+          "Responsibility of frontend architecture and design choices",
+          "Took primary responsibility for implementing the majority of the frontend features and functionality",
+          "Developed and maintained the frontend CI/CD pipeline to automate deployment processes"
         ]
       },
       {
@@ -53,34 +61,26 @@
         ]
       },
       {
-        "name": "Boxinator",
-        "description": "Need a box? Order a box!",
-        "overview": "Fullstack assignment during Noroff training period. You can order mysterious boxes and you will receive email confirmations for each step. Admins are able to update details and statuses of shipments. Project was made by a group of 4 developers.",
-        "logos": ["React", "MUI", "Java", "Docker", "Keycloak"],
-        "technologies": ["React", "Java", "MUI", "Docker", "Keycloak"],
-        "github": "https://github.com/EaCase/boxinator-client",
+        "name": "Translation app",
+        "description": "Turn text into American Sign Language.",
+        "overview": "Type in text and receive corresponding ASL interpretation. React assignment during frontend training period by Noroff.",
+        "logos": ["React", "MUI"],
+        "technologies": ["React", "MUI"],
+        "github": "https://github.com/hoffrenm/ea-translation-app",
         "demo": "",
-        "featured": true,
         "screenshots": [
-          "https://raw.githubusercontent.com/hoffrenm/showcase/refs/heads/main/img/box1.png",
-          "https://raw.githubusercontent.com/hoffrenm/showcase/refs/heads/main/img/box2.png",
-          "https://raw.githubusercontent.com/hoffrenm/showcase/refs/heads/main/img/box3.png",
-          "https://raw.githubusercontent.com/hoffrenm/showcase/refs/heads/main/img/box4.png",
-          "https://raw.githubusercontent.com/hoffrenm/showcase/refs/heads/main/img/box5.png",
-          "https://raw.githubusercontent.com/hoffrenm/showcase/refs/heads/main/img/box6.png",
-          "https://raw.githubusercontent.com/hoffrenm/showcase/refs/heads/main/img/box7.png",
-          "https://raw.githubusercontent.com/hoffrenm/showcase/refs/heads/main/img/box8.png"
+          "https://raw.githubusercontent.com/hoffrenm/ea-translation-app/refs/heads/main/img/landing.png",
+          "https://raw.githubusercontent.com/hoffrenm/ea-translation-app/refs/heads/main/img/translate.png"
         ],
         "features": [
-          "User management with Keycloak",
-          "Authorization based views",
-          "Email confirmations"
+          "Enter alphabetical string",
+          "Receive matching presentation in hand signals",
+          "Hosted on Vercel"
         ],
         "contributions": [
-          "Design collaboration",
-          "Responsibility of frontend architecture and design choices",
-          "Majority of frontend implementation",
-          "Frontend CI/CD pipeline"
+          "Interface design",
+          "Project architecture",
+          "Deployment configurations"
         ]
       },
       {
@@ -107,7 +107,7 @@
       {
         "name": "Amandus",
         "description": "Robot Framework web editor and integrated git environment on the go",
-        "overview": "This is the software engineering project by University of Helsinki for Eficode. We continued developing existing project by adding functionalities desired by the client. You can synchronize your repositories from GitHub, GitLab and BitBucket in order to edit your Robot Framework test files on this editor. Editor is capable of all common git operations including solving merge conflicts. Project group consisted of 6 developers, each investing over 200 hours of work to this project while maintaining agile development processes.",
+        "overview": "This software engineering project was developed by a team from the University of Helsinki for Eficode. Our task was to enhance an existing platform by implementing additional features based on the client's needs. The software allows users to synchronize repositories from GitHub, GitLab, and Bitbucket, enabling seamless editing of Robot Framework test files directly within the editor. The editor supports all standard Git operations, including handling and resolving merge conflicts. The project was carried out by a team of six developers, each contributing over 200 hours of work, while adhering to best practices in agile development.",
         "logos": [
           "React",
           "TypeScript",
@@ -117,7 +117,15 @@
           "Docker",
           "Cypress"
         ],
-        "technologies": ["React", "TypeScript", "MUI", "Docker", "Cypress"],
+        "technologies": [
+          "React",
+          "TypeScript",
+          "NodeJS",
+          "GraphQL",
+          "MUI",
+          "Docker",
+          "Cypress"
+        ],
         "github": "https://github.com/Ohtu-project-Eficode/Amandus",
         "demo": "",
         "screenshots": [
@@ -129,17 +137,18 @@
         ],
         "featured": true,
         "features": [
-          "Git service integration: Sync repositories with GitHub, GitLab & BitBucket",
-          "Edit, push, pull, clone, merge & create branches directly from editor",
-          "Robot Framework language server"
+          "Repository Synchronization: Sync repositories from GitHub, GitLab, and Bitbucket for seamless integration",
+          "Advanced Git Operations: Perform all common Git operations such as push, pull, clone, merge, and branch creation directly within the editor",
+          "Robot Framework Editing: Edit Robot Framework test files with full support from the integrated language server",
+          "Merge Conflict Resolution: Handle and resolve merge conflicts directly in the editor"
         ],
         "contributions": [
-          "OAuth flows with Git services",
-          "Design and implementation of new components into existing interface",
-          "Implementation of end-to-end tests with Cypress",
-          "Mocking Git-services for testing",
-          "CI/CD pipeline with GH Actions & Docker",
-          "Expanding database models and migrations"
+          "Implemented OAuth flows for seamless authentication with Git services",
+          "Designed and integrated new components into the existing interface",
+          "Developed and executed end-to-end tests using Cypress to ensure system reliability",
+          "Created mock versions of Git services for testing purposes",
+          "Set up and maintained the CI/CD pipeline using GitHub Actions and Docker for continuous integration and deployment",
+          "Expanded database models and migrations"
         ]
       }
     ]
@@ -166,13 +175,20 @@
           "React Native & Android application",
           "Retrieve repositories from GitHub",
           "Rate, leave review & read other's reviews",
-          "GitHub OAuth application",
-          ""
+          "GitHub OAuth application"
         ],
         "contributions": [
           "Finish all exercises",
           "End up with functional React Native Android app"
         ]
+      },
+      {
+        "name": "FullStack Open parts 0 - 9",
+        "description": "My solutions to FullStack Open course exercises",
+        "overview": "My solutions for FullStack Open course parts from 0 to 9. Each part covers modern FullStack development with React and Node",
+        "logos": ["React", "TypeScript", "NodeJS", "Redux", "GraphQL"],
+        "technologies": ["React", "TypeScript", "NodeJS", "Redux", "GraphQL"],
+        "github": "https://github.com/hoffrenm/fullstack-hy"
       }
     ]
   },
@@ -184,10 +200,10 @@
       {
         "name": "Showcase",
         "description": "My portfolio site",
-        "overview": "A site I built to showcase my projects.",
+        "overview": "A site I built to showcase my projects. Not much to say...You know that you are currently here?",
         "logos": ["React", "TailwindCSS"],
         "technologies": ["React", "TailwindCSS"],
-        "github": "",
+        "github": "https://github.com/hoffrenm/showcase",
         "demo": ""
       },
       {

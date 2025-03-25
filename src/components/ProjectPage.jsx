@@ -12,8 +12,6 @@ const ProjectPage = () => {
   const navigate = useNavigate();
   const { id } = useParams();
 
-  console.log(id);
-
   useEffect(() => {
     const projectExists =
       projects
@@ -30,18 +28,18 @@ const ProjectPage = () => {
   }, [id]);
 
   return (
-    <div>
+    <div className="container">
       <ProjectHeader
         title={project.name}
         description={project.description}
         link={project.github}
       />
       <ProjectOverview overview={project.overview} />
-      <ProjectScreenshots screenshots={project.screenshots} />
       <ProjectFeatures
         features={project.features}
         contributions={project.contributions}
       />
+      <ProjectScreenshots screenshots={project.screenshots} />
       <ProjectTechnologies technologies={project.technologies} />
     </div>
   );

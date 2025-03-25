@@ -4,9 +4,9 @@ const ProjectFeatures = ({ features, contributions }) => {
       {features && (
         <div className="container bg-gray-50 mx-auto p-8 pb-12">
           <h2 className="text-4xl font-bold mb-8">Key Features</h2>
-          <ul className="space-y-1 list-disc list-inside">
+          <ul className="space-y-2 list-disc list-inside">
             {features.map((feature, index) => (
-              <li key={index} className="font-mono text-[18px]">
+              <li key={index} className="font-mono text-lg">
                 {feature}
               </li>
             ))}
@@ -16,9 +16,9 @@ const ProjectFeatures = ({ features, contributions }) => {
       {contributions && (
         <div className="container bg-slate-200 mx-auto p-8 pb-12">
           <h2 className="text-4xl font-bold mb-8">My contributions</h2>
-          <ul className="space-y-1 list-disc list-inside">
+          <ul className="space-y-2 list-disc list-inside">
             {contributions.map((feature, index) => (
-              <li key={index} className="font-mono text-[18px]">
+              <li key={index} className="font-mono text-lg">
                 {feature}
               </li>
             ))}

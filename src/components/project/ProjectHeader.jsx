@@ -15,7 +15,7 @@ const ProjectHeader = ({ title, description, link }) => {
       </div>
       <div className="relative bg-cover bg-center text-white p-8 flex items-center justify-self-center">
         <div className="p-2 rounded-lg text-center">
-          <h1 className="text-7xl font-bold text-slate-800">{title}</h1>
+          <h1 className="text-7xl font-bold text-slate-950">{title}</h1>
           <p className="mt-4 text-lg text-black">{description}</p>
         </div>
       </div>
@@ -25,7 +25,7 @@ const ProjectHeader = ({ title, description, link }) => {
             <img src={"/showcase/github.svg"} className="size-12" />
           </div>
           <div>
-            <p>Check project on GitHub</p>
+            <p>Repository on GitHub</p>
           </div>
         </div>
       </a>
