@@ -3,11 +3,13 @@ import ProjectCard from "./ProjectCard";
 const SubsectionR = ({ title, intro, projects }) => {
   return (
     <div>
-      <div className="transform transition-all duration-500 flex justify-end">
-        <div className="justify-end border-solid border-t-slate-900 border-t-50 border-l-50 border-l-white"></div>
+      <div className="flex justify-between transition-all duration-300">
+        <div className="justify-end border-solid border-t-slate-900 border-t-58 border-l-58 border-l-white"></div>
 
-        <div className="flex justify-end items-center w-full bg-slate-900 drop-shadow-lg text-white">
-          <p className="truncate px-8 py-2 text-2xl tracking-wider">{title}</p>
+        <div className="flex justify-end items-center w-full bg-slate-900 text-amber-500">
+          <p className="truncate text-xl tracking-tight font-semibold px-8 py-3 sm:text-2xl sm:tracking-widest">
+            {title}
+          </p>
         </div>
       </div>
 

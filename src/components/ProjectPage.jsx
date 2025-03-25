@@ -9,8 +9,8 @@ import { useEffect, useState } from "react";
 
 const ProjectPage = () => {
   const [project, setProject] = useState({});
-  const navigate = useNavigate();
   const { id } = useParams();
+  const navigate = useNavigate();
 
   useEffect(() => {
     const projectExists =
@@ -28,7 +28,7 @@ const ProjectPage = () => {
   }, [id]);
 
   return (
-    <div className="container">
+    <div className="w-full lg:w-3/4">
       <ProjectHeader
         title={project.name}
         description={project.description}
