@@ -5,9 +5,9 @@ import intros from "../../intro.json";
 
 const Projects = () => {
   return (
-    <div className="transform transition-all duration-500 w-1/2 min-w-140 text-black ">
+    <div className="transform transition-all duration-500 w-full xl:w-3/4 text-black ">
       <div className="transform transition-all duration-500 text-black shadow-xl">
-        <h2 className="p-8 text-5xl font-bold">What I have been doing</h2>
+        <h2 className="p-8 text-4xl font-bold">What I have been doing</h2>
 
         <SubsectionL
           title={projects[0].title}
