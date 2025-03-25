@@ -4,8 +4,8 @@ const ProjectHeader = ({ title, description, link }) => {
   const navigate = useNavigate();
 
   return (
-    <div className="flex flex-row items-center align-middle justify-between">
-      <div className="m-4 size-16 hover:scale-105">
+    <div className="flex flex-col md:flex-row items-center align-middle justify-between transition-all">
+      <div className="size-12 hover:scale-105">
         <div
           onClick={() => navigate(-1)}
           className="cursor-pointer align-middle "
@@ -20,9 +20,9 @@ const ProjectHeader = ({ title, description, link }) => {
         </div>
       </div>
       <a href={link} target="_blank">
-        <div className="flex flex-row gap-2 p-2 items-center border-2 hover:bg-gray-100 border-gray-200 rounded-lg border-lg">
+        <div className="min-h-6 flex flex-row gap-2 p-2 mb-4 items-center border-1 hover:bg-gray-200 border-black rounded-lg border-lg">
           <div>
-            <img src={"/showcase/github.svg"} className="size-12" />
+            <img src={"/showcase/github.svg"} className="size-10" />
           </div>
           <div>
             <p>Repository on GitHub</p>
